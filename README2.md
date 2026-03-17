@@ -375,16 +375,6 @@ flowchart TD
 | holiday_dinner_after_stronger | 석식 holiday_after 강화 | 68.1637 |
 | holiday_after = +0.005 | 최종 미세조정 | **68.0076** |
 
-### 점수 흐름 도식
-
-```mermaid
-xychart-beta
-    title "점수 개선 흐름 (낮을수록 좋음)"
-    x-axis ["운영비율","메뉴가벼운신호","메뉴weak","날씨weak","holidayweak","dinner강화","after강화","최종"]
-    y-axis "점수" 65 --> 75
-    line [73.7161, 73.8647, 71.3722, 69.3488, 68.7557, 68.3199, 68.1637, 68.0076]
-```
-
 ### 시각화: 실제 점수 개선 그래프
 
 ![image](https://github.com/user-attachments/assets/1539d990-91bf-4b75-acaa-180eaeaeb482)
